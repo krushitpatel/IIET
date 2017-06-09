@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">"
+
+   
+
+   
+
+   
+
+   <EditText
+       android:id="@+id/pass"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/log"
+       android:layout_alignParentLeft="true"
+       android:layout_marginBottom="50dp"
+       android:ems="10"
+       android:hint="@string/password"
+       android:password="true"
+       android:textColor="@color/black" >
+
+       <requestFocus />
+   </EditText>
+
+   <EditText
+       android:id="@+id/enrol"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/pass"
+       android:layout_alignParentLeft="true"
+       android:ems="10"
+       android:hint="@string/enrol"
+       android:inputType="number"
+       android:textColor="@color/black" />
+
+   <Button
+       android:id="@+id/guestuser"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:text="Guest user" />
+
+   <TextView
+       android:id="@+id/iiet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="24dp"
+       android:text="@string/iiet"
+       android:textColor="@color/black"
+       android:textSize="60sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/forgot_password"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/signup"
+       android:layout_alignBottom="@+id/signup"
+       android:layout_alignParentLeft="true"
+       android:text="@string/forgot"
+       android:textColor="@color/black"
+       android:textSize="15sp"
+       android:textStyle="bold" />
+
+   <Button
+       android:id="@+id/log"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/signup"
+       android:layout_centerHorizontal="true"
+       android:text="@string/login" />
+
+   <TextView
+       android:id="@+id/signup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/guestuser"
+       android:layout_marginBottom="19dp"
+       android:layout_marginLeft="16dp"
+       android:layout_toRightOf="@+id/forgot_password"
+       android:clickable="true"
+       android:paddingTop="30sp"
+       android:text="@string/signup"
+       android:textColor="@color/black"
+       android:textSize="15sp"
+       android:textStyle="bold" />
+
+</RelativeLayout>

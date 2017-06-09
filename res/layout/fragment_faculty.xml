@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back5"
+    android:layout_height="match_parent" >
+    <LinearLayout 
+        android:id="@+id/id1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+
+   <Button
+    android:id="@+id/comp1"
+    android:layout_weight=".80"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:textSize="12sp"
+    android:background="@drawable/edittext_shape"
+    android:typeface="sans"
+	android:text="@string/computer"
+    />
+ </LinearLayout>
+ 
+  <LinearLayout 
+        android:id="@+id/id2"
+        android:layout_below="@+id/id1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+ 
+  <Button
+    android:id="@+id/ec1"
+    android:layout_width="match_parent"
+    android:layout_weight=".80"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+  
+    android:layout_below="@+id/text1"
+        android:textSize="12sp"
+        android:typeface="sans"
+    android:background="@drawable/edittext_shape"
+    android:text="@string/ec"
+    />
+   
+</LinearLayout>  <LinearLayout 
+        android:id="@+id/id3"
+        android:layout_below="@+id/id2"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  <Button
+    android:id="@+id/eee1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_weight=".80"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/edittext_shape"
+    android:layout_below="@+id/text2"
+        android:textSize="12sp"
+        android:typeface="sans"
+    
+    android:text="@string/electrical"
+    />
+   </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/id4"
+        android:layout_below="@+id/id3"
+       	android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+    <Button
+    android:id="@+id/mech1"
+     android:layout_weight=".80"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+  	android:background="@drawable/edittext_shape"
+    android:layout_below="@+id/text3"
+        android:textSize="12sp"
+        android:typeface="sans"
+    
+    android:text="@string/mechanical"
+    />
+   </LinearLayout>
+  <LinearLayout 
+        android:id="@+id/id5"
+        android:layout_below="@+id/id4"
+       	android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+    android:id="@+id/civil1"
+     android:layout_weight=".80"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/edittext_shape"
+    android:layout_below="@+id/text3"
+        android:textSize="12sp"
+        android:typeface="sans"
+    
+    android:text="@string/civil"
+    />
+   
+   </LinearLayout>
+  <LinearLayout 
+        android:id="@+id/id6"
+        android:layout_below="@+id/id5"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  <Button
+    android:id="@+id/auto1"
+     android:layout_weight=".80"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+   	android:background="@drawable/edittext_shape"
+    android:layout_below="@+id/text3"
+    android:textSize="12sp"
+    android:typeface="sans"
+    android:text="@string/automobile"
+    />
+ 
+ 
+ 
+ </LinearLayout>
+    
+
+</RelativeLayout>

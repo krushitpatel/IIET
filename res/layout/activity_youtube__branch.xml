@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+      <Button
+        android:id="@+id/mech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        
+        android:layout_toRightOf="@+id/img"
+        android:background="@drawable/blu"
+        android:text="@string/mechanical"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mech"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/download"
+        android:text="@string/ec"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ec"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/magg"
+        android:text="@string/electrical"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/comp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eee"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/blu"
+        android:text="@string/computer"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/comp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/download"
+        android:text="@string/civil"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/civil"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ooo"
+        android:text="@string/automobile"
+        android:textStyle="bold" />
+
+</RelativeLayout>

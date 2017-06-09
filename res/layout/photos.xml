@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/cameraimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:src="@android:drawable/alert_light_frame" />
+
+    <Button
+        android:id="@+id/camerabutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/click" />
+
+    <Button
+        android:id="@+id/camerasend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cameraimage"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:text="@string/send" />
+
+</RelativeLayout>

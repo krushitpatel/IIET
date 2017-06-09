@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IIET</string>
+    <string name="title_logo">NATIONAL GEOGRAPHIC</string>
+    <string name="btn_skip_intro">Skip Intro</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="description">"Ipcowala Institute of Engineering and Technology,Dharmaj  is a premier engineering college in Gujarat State set with the objectives of imparting higher education in various fields of engineering.The institute is affiliated to Gujarat Technology UniversityThe campus consists of buildings for various departments, offices, hostels and library.Classrooms, laboratories and knowledge centre amidst the beautiful lawns and trees make. a modern College." </string>
+    <string name="civil">Civil</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="computer">Computer</string>
+    <string name="ec">Electronics and Communication</string>
+    <string name="electrical">Electrical</string>
+    <string name="automobile">Automobile</string>
+    <string name="i_Year">I Year</string>
+    <string name="ii_Year">II Year</string>
+    <string name="iii_Year">III Year</string>
+    <string name="iv_Year">IV Year</string>
+    <string name="send">Send</string>
+    <string name="alert">Alert</string>
+    <string name="address">Address</string>
+    <string name="add1">Amrapali Township,</string>
+    <string name="add2">Petlad-Khambhat Road,</string>
+    <string name="dot">:</string>
+    <string name="add3">Dharmaj-388430.</string>
+    <string name="contact">Contact No.</string>
+    <string name="tel">02697-245808</string>
+    <string name="web">Website</string>
+    <string name="web1">www.iietedu.org</string>
+    <string name="map">Find me</string>
+    <string name="result">Result</string>
+    <string name="subjects">Subjects</string>
+    <string name="timeTable">TimeTable</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="enrol">Enrollment No</string>
+    <string name="iiet">I.I.E.T</string>
+    <string name="forgot">Forgot password ?</string>
+    <string name="signup">New User? Signup Here</string>
+    <string name="click">Click me</string>
+    <string name="name">NAME</string>
+    <string name="branch">BRANCH</string>
+    <string name="enrol1">ENROLLMENT NO</string>
+    <string name="year">YEAR</string>
+    <string name="pas">PASSWORD</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="C_Programming">C Programming</string>
+    <string name="Design_of_Reinforced_Concrete">Design of Reinforced Concrete</string>
+    <string name="Tutorial_1">Tutorial 1</string>
+    <string name="Tutorial_2">Tutorial 2</string>
+    <string name="Tutorial_3">Tutorial 3</string>
+    <string name="Tutorial_4">Tutorial 4</string>
+    <string name="Tutorial_5">Tutorial 5</string>
+    <string name="Kinematics_of_Machines">Kinematics of Machines</string>
+    <string name="Automobile_Engineering">Automobile Engineering</string>
+    <string name="Circuits_and_Networks">Circuits and Networks</string>
+    <string name="Data_Communication_And_Networking">Data Communication And Networking</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>TimeTable</item>
+        <item>Faculty</item>
+        <item>Notice</item>
+        <item>Subject</item>
+        <item>Result</item>
+        <item>GtuRank</item>
+        <item>PhotoGallery</item>
+        <item>Tutorial</item>
+        <item>Alert</item>
+        <item>Contact Us</item>
+        <item>About Us</item>
+        <item>Logout</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/hom</item>
+        <item>@drawable/schedule</item>
+        <item>@drawable/name</item>
+        <item>@drawable/notice_icon</item>
+        <item>@drawable/subjects_icon</item>
+        <item>@drawable/result_icon</item>
+        <item>@drawable/gturank</item>
+        <item>@drawable/photogallery_icon</item>
+        <item>@drawable/tutorial_icon</item>
+        <item>@drawable/alert_icon</item>
+        <item>@drawable/contactus_icon</item>
+        <item>@drawable/about_icon</item>
+        <item>@drawable/logout_icon</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="title_activity_youtube__list">Youtube_List</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_youtube__branch">Youtube_Branch</string>
+    <string name="title_activity_image__branch">Image_Branch</string>
+    <string name="title_activity_guest__user">Guest_User</string>
+
+</resources>

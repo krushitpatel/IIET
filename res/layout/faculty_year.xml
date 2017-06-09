@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/faculty"
+       
+       />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+       		 android:background="@drawable/ooo"
+            android:text="@string/i_Year"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt2"
+    		android:background="@drawable/download"
+            android:text="@string/ii_Year"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt3"
+ 			android:background="@drawable/blu"
+            android:text="@string/iii_Year"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt4"
+   			android:background="@drawable/magg"
+            android:text="@string/iv_Year"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
